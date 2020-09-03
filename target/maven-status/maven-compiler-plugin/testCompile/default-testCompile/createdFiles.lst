@@ -1,0 +1,15 @@
+Tests\GuestUserCheckOutProductTest.class
+Tests\ProductHoverMenuTest.class
+Tests\AddProductReviewTest.class
+Tests\ContactUsTest.class
+Tests\MyAccountTest.class
+Tests\UserRegisterationTest.class
+Tests\AddProductToWishListTest.class
+Tests\AutoCompleteSearchTest.class
+Tests\EmailFriendTest.class
+Tests\TestBase.class
+Tests\ChangeCurrencyTest.class
+Tests\dummy.class
+Tests\AddProductToShoppingCartTest.class
+Tests\AddProductToCompareTest.class
+Tests\SearchProductTest.class

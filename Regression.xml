@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Nopcommerce Regression TestSuite">
+	<test name="Regression Test"  preserve-order="false">
+		<classes>
+			<class name="Tests.UserRegisterationTest" />
+			<class name="Tests.AddProductReviewTest" />
+			<class name="Tests.AddProductToCompareTest" />
+		</classes>
+	</test> 
+</suite> 

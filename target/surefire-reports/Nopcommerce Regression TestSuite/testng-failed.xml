@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Nopcommerce Regression TestSuite]">
+  <test thread-count="5" verbose="0" name="Regression Test(failed)">
+    <classes>
+      <class name="Tests.AddProductReviewTest">
+        <methods>
+          <include name="closedriver"/>
+          <include name="startdriver"/>
+          <include name="RegisterationHappyPath"/>
+          <include name="takingscreenshot"/>
+        </methods>
+      </class> <!-- Tests.AddProductReviewTest -->
+      <class name="Tests.AddProductToCompareTest">
+        <methods>
+          <include name="UserCanCompareProduct"/>
+          <include name="closedriver"/>
+          <include name="UserCanClearComparelist"/>
+          <include name="startdriver"/>
+          <include name="takingscreenshot"/>
+        </methods>
+      </class> <!-- Tests.AddProductToCompareTest -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [Nopcommerce Regression TestSuite] -->
